@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  box-shadow: rgba(164, 67, 254, 0.216) 10px 10px 10px;
+  box-shadow: 0 0 10px #6804c5;
   height: 8vh;
 }
 
@@ -17,7 +17,23 @@
   height: 92vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+
+.componentsMain2 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: linear-gradient(to top, #6804c5, #00a2ff);
+}
+
+.containerMain3 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: linear-gradient(to top, #6804c5, #00a2ff);
 }
 
 .components {
@@ -25,6 +41,45 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  width: 80%;
+  align-self: center;
+}
+
+.componentMethods {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.containerSteps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.containerStepsBox {
+  width: 250px;
+  text-align: center;
+  color: rgb(185, 184, 184);
+}
+
+.containerStepsIcon {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: center;
+}
+
+.methodsMoney {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.methodsText {
+  font-size: 30px;
+  color: rgb(185, 184, 184);
 }
 
 .image {
@@ -59,11 +114,19 @@
   color: #6804c5;
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-shadow: black 4px 4px 4px;
+}
+
+.textMain2 {
+  font-size: 70px;
+  font-weight: inherit;
+  align-self: center;
+  color: #00a2ff;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .text1 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: inherit;
   align-self: center;
   color: #6804c5;
@@ -71,7 +134,7 @@
 }
 
 .text2 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: inherit;
   align-self: center;
   color: #00a2ff;
@@ -89,7 +152,7 @@
 .btn {
   align-self: center;
   border-radius: 49px;
-  font-size: 18;
+  font-size: 20px;
   background-color: #e3cbff;
   color: #6804c5;
   border: #6804c5 1px solid;
@@ -110,9 +173,9 @@
 
 .btn2 {
   align-self: center;
+  width: 20%;
   border-radius: 49px;
   font-size: 20px;
-  background-color: #e2cbff;
   color: #6804c5;
   border: #6804c5 2px solid;
   padding: 10px 37px;
@@ -121,6 +184,7 @@
 
 .btn2:hover {
   align-self: center;
+  width: 20%;
   border-radius: 49px;
   font-size: 20px;
   background-color: #6804c5;
@@ -141,8 +205,85 @@
   font-weight: inherit;
   align-self: center;
   color: rgb(0, 0, 0);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.textTitle2 {
+  font-size: 50px;
+  font-weight: inherit;
+  align-self: center;
+  color: #6804c5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textTitle3 {
+  font-size: 50px;
+  font-weight: inherit;
+  align-self: center;
+  color: #00a2ff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textSubtile {
+  font-size: 35px;
+  font-weight: inherit;
+  color: rgb(0, 0, 0);
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-shadow: #6804c5 4px 4px 4px;
-  text-align: center;
+  margin: 0px;
+}
+
+.containerText {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+
+.options {
+  width: 650px;
+  height: 300px;
+  box-shadow: 0 0 15px #6804c5;
+  border-radius: 20px;
+}
+
+.options:hover {
+  width: 650px;
+  height: 300px;
+  box-shadow: 0 0 15px #00a2ff;
+  border-radius: 20px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.description {
+  font-size: 15px;
+  text-decoration: underline;
+  align-self: center;
+  padding: 30px;
+}
+
+.containerDown {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.hr {
+  width: 60%;
+  color: black;
 }
