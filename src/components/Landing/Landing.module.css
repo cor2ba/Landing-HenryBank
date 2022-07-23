@@ -14,14 +14,14 @@
 }
 
 .componentsMain {
-  height: 92vh;
+  min-height: 92vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
 .componentsMain2 {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -29,7 +29,7 @@
 }
 
 .containerMain3 {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -249,17 +249,19 @@
 }
 
 .options {
-  width: 650px;
-  height: 300px;
-  box-shadow: 0 0 15px #6804c5;
-  border-radius: 20px;
-}
-
-.options:hover {
-  width: 650px;
+  width: 600px;
   height: 300px;
   box-shadow: 0 0 15px #00a2ff;
   border-radius: 20px;
+  margin: 20px;
+}
+
+.options:hover {
+  width: 600px;
+  height: 300px;
+  box-shadow: 0 0 15px #6804c5;
+  border-radius: 20px;
+  margin: 20px;
 }
 
 .title {
