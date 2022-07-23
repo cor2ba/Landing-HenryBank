@@ -1,0 +1,148 @@
+.background {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.nav {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  box-shadow: rgba(164, 67, 254, 0.216) 10px 10px 10px;
+  height: 8vh;
+}
+
+.componentsMain {
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.components {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.image {
+  height: 400px;
+  width: 400px;
+  align-self: center;
+}
+
+.image:hover {
+  height: 410px;
+  width: 410px;
+  align-self: center;
+}
+
+.elements {
+  width: 300px;
+  background-color: rgba(137, 43, 226, 0.426);
+  padding: 10px;
+  text-align: center;
+}
+
+.containerNav {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.textMain {
+  font-size: 70px;
+  font-weight: inherit;
+  align-self: center;
+  color: #6804c5;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: black 4px 4px 4px;
+}
+
+.text1 {
+  font-size: 30px;
+  font-weight: inherit;
+  align-self: center;
+  color: #6804c5;
+  cursor: pointer;
+}
+
+.text2 {
+  font-size: 30px;
+  font-weight: inherit;
+  align-self: center;
+  color: #00a2ff;
+  cursor: pointer;
+}
+
+.text3 {
+  font-size: 20px;
+  font-weight: inherit;
+  align-self: center;
+  color: grey;
+  cursor: pointer;
+}
+
+.btn {
+  align-self: center;
+  border-radius: 49px;
+  font-size: 18;
+  background-color: #e3cbff;
+  color: #6804c5;
+  border: #6804c5 1px solid;
+  padding: 10px 37px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  align-self: center;
+  border-radius: 49px;
+  font-size: 18;
+  background-color: #6804c5;
+  color: #fff;
+  border: #6804c5 1px solid;
+  padding: 10px 37px;
+  cursor: pointer;
+}
+
+.btn2 {
+  align-self: center;
+  border-radius: 49px;
+  font-size: 20px;
+  background-color: #e2cbff;
+  color: #6804c5;
+  border: #6804c5 2px solid;
+  padding: 10px 37px;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  align-self: center;
+  border-radius: 49px;
+  font-size: 20px;
+  background-color: #6804c5;
+  color: #fff;
+  border: #6804c5 2px solid;
+  padding: 10px 37px;
+  cursor: pointer;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.textTitle {
+  font-size: 50px;
+  font-weight: inherit;
+  align-self: center;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: #6804c5 4px 4px 4px;
+  text-align: center;
+}
