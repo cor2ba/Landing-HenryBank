@@ -8,7 +8,10 @@ import VerifiedUserIcon from "@mui/icons-material/VerifiedUser";
 import AddCardIcon from "@mui/icons-material/AddCard";
 import CardGiftcardIcon from "@mui/icons-material/CardGiftcard";
 import DownloadIcon from "@mui/icons-material/Download";
+import MobileFriendlyIcon from "@mui/icons-material/MobileFriendly";
 import AppRegistrationIcon from "@mui/icons-material/AppRegistration";
+
+import { Link } from "react-router-dom";
 
 const Landing = () => {
   return (
@@ -18,8 +21,11 @@ const Landing = () => {
           <h1 className={style.text1}>Henry</h1>
           <h1 className={style.text2}>Bank</h1>
         </div>
-        <h1 className={style.text3}>Sobre HenryBank</h1>
-        <button className={style.btn}>Ingresar</button>
+        {/* <h1 className={style.text3}>Sobre HenryBank</h1> */}
+        {/* <button className={style.btn}>Nosotros</button> */}
+        <Link to="/Nosotros">
+          <h1 className={style.text3}>Nosotros</h1>
+        </Link>
       </div>
       <div className={style.componentsMain}>
         <div className={style.components}>
@@ -58,8 +64,8 @@ const Landing = () => {
           </div>
           <div className={style.options}>
             <div className={style.containerText}>
-              <h1 className={style.textSubtile}>Inverti en criptos</h1>
-              <h1 className={style.textSubtile}>y despeta tu plata</h1>
+              <h1 className={style.textSubtile}>Inverti en cryptos</h1>
+              <h1 className={style.textSubtile}>y activa tu capital</h1>
             </div>
             <div className={style.containerDown}>
               <div className={style.img1}>
@@ -88,8 +94,8 @@ const Landing = () => {
           </div>
           <div className={style.options}>
             <div className={style.containerText}>
-              <h1 className={style.textSubtile}>Transfiere a personas y </h1>
-              <h1 className={style.textSubtile}>ponlo en tus contactos</h1>
+              <h1 className={style.textSubtile}>Transferi a personas y </h1>
+              <h1 className={style.textSubtile}>agregalos a tus contactos</h1>
             </div>
             <div className={style.containerDown}>
               <PublishedWithChangesIcon
@@ -125,14 +131,14 @@ const Landing = () => {
                 style={{ color: "#6804c5", width: 100, height: 100 }}
               ></AppRegistrationIcon>
             </div>
-            <h2>Completá el registro con tus datos desde la app</h2>
+            <h2>Completá el registro con tus datos</h2>
           </div>
           <div className={style.containerStepsBox}>
             <div className={style.containerStepsIcon}>
               <h1>03.</h1>
-              <DownloadIcon
+              <MobileFriendlyIcon
                 style={{ color: "#6804c5", width: 100, height: 100 }}
-              ></DownloadIcon>
+              ></MobileFriendlyIcon>
             </div>
             <h2>Disfruta de tener un banco en tu celular</h2>
           </div>
