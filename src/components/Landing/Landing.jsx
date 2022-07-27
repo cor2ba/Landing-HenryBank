@@ -23,8 +23,8 @@ const Landing = () => {
         </div>
         {/* <h1 className={style.text3}>Sobre HenryBank</h1> */}
         {/* <button className={style.btn}>Nosotros</button> */}
-        <Link to="/Nosotros">
-          <h1 className={style.text3}>Nosotros</h1>
+        <Link to="/Nosotros" style={{ textDecoration: "inherit" }}>
+          <h1 className={style.text3}>Sobre Nosotros</h1>
         </Link>
       </div>
       <div className={style.componentsMain}>
@@ -43,7 +43,7 @@ const Landing = () => {
         <div className={style.title}>
           <h1 className={style.textTitle}>Mirá todo lo que podés hacer con</h1>
           <h1 className={style.textTitle2}>Henry</h1>
-          <h1 className={style.textTitle3}> Bank</h1>
+          <h1 className={style.textTitle2}> Bank</h1>
         </div>
         <div className={style.container2}>
           <div className={style.options}>
@@ -112,7 +112,7 @@ const Landing = () => {
         <div className={style.title}>
           <h1 className={style.textTitle}>¿Comó ser parte de </h1>
           <h1 className={style.textTitle2}>Henry</h1>
-          <h1 className={style.textTitle3}> Bank?</h1>
+          <h1 className={style.textTitle2}> Bank?</h1>
         </div>
         <div className={style.containerSteps}>
           <div className={style.containerStepsBox}>
@@ -145,7 +145,7 @@ const Landing = () => {
         </div>
         <div className={style.title}>
           <h1 className={style.textTitle}>Cargá saldo para usar </h1>
-          <h1 className={style.textTitle2}>Henry</h1>
+          <h1 className={style.textTitle3}>Henry</h1>
           <h1 className={style.textTitle3}> Bank</h1>
         </div>
         <div className={style.componentMethods}>
