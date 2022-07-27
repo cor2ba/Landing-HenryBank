@@ -49,22 +49,21 @@ const Landing = () => {
           <div className={style.options}>
             <div>
               <div className={style.containerText}>
-                <h1 className={style.textSubtile}>Plazos fijos pensados</h1>
-                <h1 className={style.textSubtile}>para vos</h1>
+                <h1 className={style.textSubtile}>Invertí en Plazos fijos para ganar dinero</h1>
               </div>
               <div className={style.containerDown}>
                 <AttachMoneyIcon
                   style={{ color: "#00a2ff", width: 100, height: 100 }}
                 ></AttachMoneyIcon>
                 <h2 className={style.description}>
-                  Lista de contactos para facilitar al usuario.
+                  Podes invertir en distintos plazos fijos de una manera Fácil y Segura, con una ganancia del 5%. 
                 </h2>
               </div>
             </div>
           </div>
           <div className={style.options}>
             <div className={style.containerText}>
-              <h1 className={style.textSubtile}>Inverti en cryptos</h1>
+              <h1 className={style.textSubtile}>Invertí en cryptos</h1>
               <h1 className={style.textSubtile}>y activa tu capital</h1>
             </div>
             <div className={style.containerDown}>
@@ -74,27 +73,27 @@ const Landing = () => {
                 ></CurrencyBitcoinIcon>
               </div>
               <h2 className={style.description}>
-                Lista de contactos para facilitar al usuario.
+                Podes invertir en diferentes criptomonedas como el Bitcoin, Etherium, USDT, etc.
               </h2>
             </div>
           </div>
           <div className={style.options}>
             <div className={style.containerText}>
-              <h1 className={style.textSubtile}>Protegé lo que mas</h1>
-              <h1 className={style.textSubtile}>queres</h1>
+              <h1 className={style.textSubtile}>Protegé lo que más</h1>
+              <h1 className={style.textSubtile}>quieres</h1>
             </div>
             <div className={style.containerDown}>
               <VerifiedUserIcon
                 style={{ color: "#00a2ff", width: 100, height: 100 }}
               ></VerifiedUserIcon>
               <h2 className={style.description}>
-                Lista de contactos para facilitar al usuario.
+             Henry Bank ofrece una seguridad diferente a muchas apps, cuenta con contraseñas encriptadas, validaciones de emails, etc.
               </h2>
             </div>
           </div>
           <div className={style.options}>
             <div className={style.containerText}>
-              <h1 className={style.textSubtile}>Transferi a personas y </h1>
+              <h1 className={style.textSubtile}>Transferí a personas y </h1>
               <h1 className={style.textSubtile}>agregalos a tus contactos</h1>
             </div>
             <div className={style.containerDown}>
@@ -102,7 +101,7 @@ const Landing = () => {
                 style={{ color: "#00a2ff", width: 100, height: 100 }}
               ></PublishedWithChangesIcon>
               <h2 className={style.description}>
-                Lista de contactos para facilitar al usuario.
+              Henry Bank cuenta con un apartado para guardar contactos y poder realizar una transferencia mas Simple y Rápida.
               </h2>
             </div>
           </div>

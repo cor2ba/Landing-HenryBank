@@ -275,10 +275,10 @@
 }
 
 .description {
-  font-size: 15px;
-  text-decoration: underline;
+  font-size: 20px;
+  /* text-decoration: underline; */
   align-self: center;
-  padding: 30px;
+  padding: 20px;
 }
 
 .containerDown {
