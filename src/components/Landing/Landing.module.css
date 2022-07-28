@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=Montserrat:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=Montserrat:wght@600&display=swap");
 
 .background {
   display: flex;
@@ -7,19 +7,24 @@
 }
 
 .nav {
-  background-color: #fff;
+  background-color: #1f1f20;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  box-shadow: 0 0 10px #6804c5;
-  height: 8vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+  box-shadow: 1px 1px 10px #6804c5;
+  height: 10vh;
 }
 
 .componentsMain {
-  min-height: 92vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: #f8f8f8;
 }
 
 .componentsMain2 {
@@ -42,9 +47,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-  width: 80%;
-  align-self: center;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+  gap: 1rem;
 }
 
 .componentMethods {
@@ -85,14 +90,8 @@
 }
 
 .image {
-  height: 400px;
-  width: 400px;
-  align-self: center;
-}
-
-.image:hover {
-  height: 410px;
-  width: 410px;
+  height: 300px;
+  width: 300px;
   align-self: center;
 }
 
@@ -175,26 +174,21 @@
 }
 
 .btn2 {
-  align-self: center;
-  width: 20%;
-  border-radius: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem;
+  border-radius: 1.5rem;
   font-size: 20px;
   color: #6804c5;
   border: #6804c5 2px solid;
-  padding: 10px 37px;
   cursor: pointer;
 }
 
 .btn2:hover {
-  align-self: center;
-  width: 20%;
-  border-radius: 49px;
-  font-size: 20px;
-  background-color: #6804c5;
-  color: #fff;
-  border: #6804c5 2px solid;
-  padding: 10px 37px;
   cursor: pointer;
+  background: #6804c5;
+  color: white;
 }
 
 .cont {

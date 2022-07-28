@@ -10,7 +10,7 @@ export const data = [
   {
     id:2,
     fullName: "Yeison Villegas",
-    image:"https://images-ext-1.discordapp.net/external/UlP8OhThpm9HORqMUn9S9iBvLwY3F5eSjmsvAs18maI/https/i.pinimg.com/originals/c9/d8/7a/c9d87ab356ee75dabc4e853fe54a9a6b.jpg?width=332&height=480",
+    image:"https://media.discordapp.net/attachments/971527017671569448/1001252297579434086/20220725_171802.jpg?width=360&height=480",
     team:"Frontend",
     gitHub: "https://github.com/soyeison",
     linkedin: "https://www.linkedin.com/in/yeison-villegas-74035a185/",
@@ -18,7 +18,7 @@ export const data = [
   {
     id:3,
     fullName: "Emanuel Juri",
-    image:"https://www.elindependiente.com.ar/elindependiente/1.0/img/511768868.jpg",
+    image:"https://cdn.discordapp.com/attachments/981732806369624074/1002248031879573596/WhatsApp_Image_2022-07-28_at_1.10.39_PM.jpeg",
     team:"Frontend",
     gitHub: "https://github.com/EmanuelJuri",
     linkedin: "https://www.linkedin.com/in/emanuel-juri-a1699a70/",
@@ -42,7 +42,7 @@ export const data = [
   {
     id:6,
     fullName: "Brian Vazquez",
-    image:"https://s.france24.com/media/display/2523a8d0-2757-11eb-846f-005056bff430/w:1280/p:16x9/TRUMP%201%20%281%29.jpg",
+    image:"https://media.discordapp.net/attachments/974102039342768178/1001222634417180845/photo_2022-06-17_11-02-19.jpg?width=640&height=480",
     team:"Backend",
     gitHub: "https://github.com/SantiagoGomez1",
     linkedin: "https://www.linkedin.com/in/briangv/",
@@ -50,7 +50,7 @@ export const data = [
   {
     id:7,
     fullName: "Ivan Caggiano",
-    image:"https://statics-cuidateplus.marca.com/cms/styles/natural/azblob/bebe-lloro.jpg.webp?itok=gF_VBQwP",
+    image:"https://media.discordapp.net/attachments/968315443012063312/1001219789852774430/fotoperfil.jpg?width=269&height=480",
     team:"Backend",
     gitHub: "https://github.com/SantiagoGomez1",
     linkedin: "https://www.linkedin.com/in/ivan-caggiano-064ba7204/",
@@ -58,7 +58,7 @@ export const data = [
   {
     id:8,
     fullName: "Federico Rampi",
-    image:"https://evelongames.com/wp-content/uploads/2022/04/brimstonepng.png",
+    image:"https://cdn.discordapp.com/attachments/996489040675213373/1001217882195247145/IMG_20220712_101919171.jpg",
     team:"Backend",
     gitHub: "https://github.com/FdR-23",
     linkedin: "https://www.linkedin.com/in/federico-rampi-1a8793107/",

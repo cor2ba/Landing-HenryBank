@@ -1,8 +1,9 @@
 import React from "react";
 import TeamCards from "../TeamCards/TeamCards.jsx";
+import Styles from './Nosotros.module.css'
 const Nosotros = () => {
   return (
-    <div>
+    <div className={Styles.container}>
       <TeamCards />
     </div>
   );

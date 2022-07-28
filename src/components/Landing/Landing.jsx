@@ -24,7 +24,7 @@ const Landing = () => {
         {/* <h1 className={style.text3}>Sobre HenryBank</h1> */}
         {/* <button className={style.btn}>Nosotros</button> */}
         <Link to="/Nosotros" style={{ textDecoration: "inherit" }}>
-          <h1 className={style.text3}>Sobre Nosotros</h1>
+          <h1 className={style.text3}>Nosotros</h1>
         </Link>
       </div>
       <div className={style.componentsMain}>
@@ -37,7 +37,12 @@ const Landing = () => {
           </div>
           <h1 className={style.textMain2}>de tu plata....</h1>
         </div>
-        <button className={style.btn2}>Descarga la app</button>
+          <a
+            href={`https://drive.google.com/file/d/1UHa57AGGo7jAPTOHMU8U6eVSLltm7apH/view?usp=sharing`}
+            target="_blank"
+          >
+            <button className={style.btn2}>Descarga la app</button>
+          </a>
       </div>
       <div className={style.componentsMain2}>
         <div className={style.title}>
@@ -49,14 +54,17 @@ const Landing = () => {
           <div className={style.options}>
             <div>
               <div className={style.containerText}>
-                <h1 className={style.textSubtile}>Invertí en Plazos fijos para ganar dinero</h1>
+                <h1 className={style.textSubtile}>
+                  Invertí en Plazos fijos para ganar dinero
+                </h1>
               </div>
               <div className={style.containerDown}>
                 <AttachMoneyIcon
                   style={{ color: "#00a2ff", width: 100, height: 100 }}
                 ></AttachMoneyIcon>
                 <h2 className={style.description}>
-                  Podes invertir en distintos plazos fijos de una manera Fácil y Segura, con una ganancia del 5%. 
+                  Podes invertir en distintos plazos fijos de una manera Fácil y
+                  Segura, con una ganancia del 5%.
                 </h2>
               </div>
             </div>
@@ -73,7 +81,8 @@ const Landing = () => {
                 ></CurrencyBitcoinIcon>
               </div>
               <h2 className={style.description}>
-                Podes invertir en diferentes criptomonedas como el Bitcoin, Etherium, USDT, etc.
+                Podes invertir en diferentes criptomonedas como el Bitcoin,
+                Etherium, USDT, etc.
               </h2>
             </div>
           </div>
@@ -87,7 +96,8 @@ const Landing = () => {
                 style={{ color: "#00a2ff", width: 100, height: 100 }}
               ></VerifiedUserIcon>
               <h2 className={style.description}>
-             Henry Bank ofrece una seguridad diferente a muchas apps, cuenta con contraseñas encriptadas, validaciones de emails, etc.
+                Henry Bank ofrece una seguridad diferente a muchas apps, cuenta
+                con contraseñas encriptadas, validaciones de emails, etc.
               </h2>
             </div>
           </div>
@@ -101,7 +111,8 @@ const Landing = () => {
                 style={{ color: "#00a2ff", width: 100, height: 100 }}
               ></PublishedWithChangesIcon>
               <h2 className={style.description}>
-              Henry Bank cuenta con un apartado para guardar contactos y poder realizar una transferencia mas Simple y Rápida.
+                Henry Bank cuenta con un apartado para guardar contactos y poder
+                realizar una transferencia mas Simple y Rápida.
               </h2>
             </div>
           </div>

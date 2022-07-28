@@ -1,7 +1,9 @@
-
+*{
+font-family: Lato,sans-serif;
+}
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #fff;
+  background: linear-gradient(to top, #6804c5, #00a2ff);
 }
 
