@@ -8,16 +8,16 @@ Podras ejecutar este proyecto ejecutando este comando en consola `npm start`.
 
 ## Home
 
-<img src="./Home.png" alt="Imágen del home"/>
+<img src="./imgs/Home.png" alt="Imágen del home"/>
 
 ## Lo que podes hacer
 
-<img src="./Lo que podes hacer.png" alt="Imágen lo que podes hacer"/>
+<img src="./imgs/Lo que podes hacer.png" alt="Imágen lo que podes hacer"/>
 
 ## Ser parte y cargar saldo
 
-<img src="./Ser parte y cargar saldo.png" alt="Imágen ser parte y cargar saldo"/>
+<img src="./imgs/Ser parte y cargar saldo.png" alt="Imágen ser parte y cargar saldo"/>
 
 ## Nosotros
 
-<img src="./Nosotros.png" alt="Imágen de nosotros"/>
+<img src="./imgs/Nosotros.png" alt="Imágen de nosotros"/>
