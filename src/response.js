@@ -29,7 +29,7 @@ export const data = [
     image:"https://cdn.discordapp.com/attachments/963574186847133716/1000492418082275358/20220720_192058.jpg",
     team:"Frontend",
     gitHub: "https://github.com/cor2ba",
-    linkedin: "https://www.linkedin.com/in/gabriel-c%C3%B3rdoba-270369236/",
+    linkedin: "https://www.linkedin.com/in/gabriel-cordoba/",
   },
   {
     id:5,
