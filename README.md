@@ -1,6 +1,6 @@
 # Landing Web Henry Bank
 
-Podras ejecutar este proyecto ejecutando este comando en consola `npm start`.   
+Podras ejecutar este proyecto con los siguientes comandos en consola, `npm install` (instalar dependecias) luego `npm start` (levantar proyecto).    
 
 ### Landing Web Henry Bank es la landing de la app de banco "Henry Bank" en la cual podes encontrar la instalación de la misma.
 
